@@ -41,14 +41,14 @@ public class Ejercicio1 {
         List<Correo> correos = List.of(
                 new Correo("santi.23@gmail.com", true),
                 new Correo("santi.os@hotmail.es", false),
-                new Correo("carlos@gmailcom", false),
+                new Correo("23@gmailcom", false),
                 new Correo("cristian@outlook.com", true),
                 new Correo("juan@outlook.com", false),
                 new Correo("juanhotmail.com", true),
                 new Correo("miguel@outlook.es", true),
                 new Correo("jhon@hotmail.es", true),
                 new Correo("daniel@gmail.edu.co", false),
-                new Correo("juaan@outlook.com", true),
+                new Correo("hola-manrrique@outlook.com", true),
                 new Correo("santi@gmail.es", true),
                 new Correo("santi@hotmail.es", false),
                 new Correo("carlos@gailcom", false),
@@ -57,7 +57,7 @@ public class Ejercicio1 {
                 new Correo("juanhotmail.com", false),
                 new Correo("miguel@outlook.com", true),
                 new Correo("jhon@hotmail.es", true),
-                new Correo("daniel@gmail.com", false),
+                new Correo("daniel_castro@gmail.com", false),
                 new Correo("juan@outlook.edu.co", true)
         );
 
