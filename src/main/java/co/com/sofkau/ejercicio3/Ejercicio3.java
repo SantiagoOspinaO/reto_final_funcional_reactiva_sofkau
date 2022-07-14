@@ -7,7 +7,7 @@ public class Ejercicio3 {
 
     public static void derivar(Integer coeficiente, Integer exponente) {
         BiFunction<Integer, Integer, Integer> coeficien = (coeficient, exponent) -> coeficient * exponent;
-        Function<Integer, Integer> resta = (expone) -> expone - 1;
+        Function<Integer, Integer> resta = expone -> expone - 1;
         System.out.println("∂f/∂x " + coeficiente +"x^" + exponente +" = " + coeficien.apply(coeficiente, exponente) +"x^" + resta.apply(exponente));
     }
 
@@ -17,7 +17,7 @@ public class Ejercicio3 {
                 return coeficient / (exponent + 1);
             } else return 1;
         };
-        Function<Integer, Integer> suma = (expone) -> expone + 1;
+        Function<Integer, Integer> suma = expone -> expone + 1;
 
         System.out.println("∫" + coeficiente + "x^" + exponente + "∂x = " + coeficien.apply(coeficiente, exponente) + "x^" + suma.apply(exponente) + " + c");
     }
