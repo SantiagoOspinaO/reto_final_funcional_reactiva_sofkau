@@ -46,9 +46,19 @@ public class Ejercicio1 {
                 new Correo("juan@outlook.com", false),
                 new Correo("juanhotmail.com", true),
                 new Correo("miguel@outlook.es", true),
-                new Correo("jhon@hotmail.es", true),
+                new Correo("jhon.m@hotmail.es", true),
                 new Correo("daniel@gmail.edu.co", false),
                 new Correo("hola-manrrique@outlook.com", true),
+                new Correo("santi@gmail.es", true),
+                new Correo("santi@hotmail.es", false),
+                new Correo("carlos@gailcom", false),
+                new Correo("cristianl@outlook.com", true),
+                new Correo("migue@outlook.edu.co", true),
+                new Correo("juan1hotmail.com", false),
+                new Correo("miguel@outlook.com", true),
+                new Correo("jhon-0@hotmail.es", true),
+                new Correo("daniel_castro@gmail.com", false),
+                new Correo("juan@@outlook.edu.co", true),
                 new Correo("santi@gmail.es", true),
                 new Correo("santi@hotmail.es", false),
                 new Correo("carlos@gailcom", false),
@@ -56,9 +66,9 @@ public class Ejercicio1 {
                 new Correo("migue@outlook.edu.co", true),
                 new Correo("juanhotmail.com", false),
                 new Correo("miguel@outlook.com", true),
-                new Correo("jhon@hotmail.es", true),
+                new Correo("jhon874@hotmail.es", true),
                 new Correo("daniel_castro@gmail.com", false),
-                new Correo("juan@outlook.edu.co", true)
+                new Correo("juan#@outlook.edu.co", true)
         );
 
         esRepetido(correos);
